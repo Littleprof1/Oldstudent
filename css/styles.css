@@ -1,0 +1,722 @@
+
+.navbar {
+  padding: 2% 10%;
+  background-color: #4632ff;
+}
+
+
+.home-text-button {
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px #666666;
+  font-family: Arial;
+  color: #fff;
+  font-size: 20px;
+  background: #363166;
+  padding: 5px 10px 5px 10px;
+  border: solid #363166 1px;
+  text-decoration: none;
+  position: relative;
+  /* top: 9px; */
+  text-transform: uppercase;
+  /* margin-left: -35%;
+  margin-top: -7%; */
+}
+
+.home-text-button:hover {
+  color: #000000;
+  background: #4632ff;
+  text-decoration: none;
+}
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar ul li a{
+  color: #ffffff !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  transition: .5s;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.hline{
+  width: 50px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: -8px auto 10px auto;
+}
+
+.hisline{
+  width: 70px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: -8px auto 10px auto;
+}
+
+.eline{
+  width: 85px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: -8px auto 10px auto;
+}
+
+.gline{
+  width: 70px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: -8px auto 10px auto;
+}
+
+.dline{
+  width: 90px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: -8px auto 10px auto;
+}
+
+.cline{
+  width: 100px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: -8px auto 10px auto;
+}
+
+
+/* .bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} */
+
+/* @media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+} */
+
+
+.navbar{
+    padding: 7% 8%;
+}
+
+@media (max-width:1028px) {
+  .navbar {
+    padding: 3% 1%;
+  }
+}
+
+
+.home-logo {
+  width: 60%;
+  height: 60%;
+}
+
+@media (max-width: 1028px) {
+  .home-logo{
+    width: 20%;
+    height: 20%;
+  }
+}
+
+.logo-text{
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 19px 30px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* GLOBAL STYLES
+--------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/* intro 
+========================= */
+
+#intro{
+  text-align: center;
+  background-color: #fff;
+}
+
+#intro h2 {
+  color: #1919cc;
+}
+
+#intro h3 {
+  color: #1919cc;
+}
+
+#intro h1 {
+  color: #1919cc;
+  font-size: 3rem;
+  letter-spacing: 0.8rem;
+}
+
+/* image 
+========================== */
+
+#image{
+  text-align: center;
+}
+
+#image h2 {
+  font-size: 3rem;
+  margin-bottom: -5%;
+  letter-spacing: 0.8rem;
+}
+
+.image-size{
+  width: 24%;
+  height: 150%;
+}
+
+/* .gallery-line{
+  width: 10%;
+  height: 3px;
+  background-color: #1919cc;
+  margin-left: 45%;
+  margin-bottom: 3%;
+} */
+
+
+.image-container {
+  padding: 7% 10%;
+}
+
+
+/* donation 
+========================= */
+
+#donation{
+  background-image: url(../images/laptop.jpg);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  /* filter: blur(3px); */
+  color: #fff;
+}
+
+.donation-container{
+  padding: 7% 10%;
+}
+
+
+.donation-button {
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px #666666;
+  font-family: Arial;
+  color: #fff;
+  font-size: 20px;
+  background: #363166;
+  padding: 5px 10px 5px 10px;
+  border: solid #363166 1px;
+  text-decoration: none;
+  position: relative;
+  top: 9px;
+}
+
+.donation-button:hover {
+  color: #000000;
+  background: #fff;
+  text-decoration: none;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+/* executives page
+========================= */
+
+.executive-page{
+  background: url(../images/men2.jpg) no-repeat;
+  filter: blur(3px);
+  background-position: center;
+  background-size: cover;
+  min-height: 70vh;
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.executive-page-text{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+  border: 3px solid #1919cc;
+  letter-spacing: 0.8rem;
+}
+
+.executive-page-text h1{
+  font-size: 3rem;
+}
+
+@media (max-width:1028px) {
+  .executive-page-text{
+    width: 70%;
+  }
+
+  .executive-page-text h1{
+    font-size: 1.3rem;
+  }
+}
+
+/* executives page end
+========================= */
+
+
+/* Gallery page 
+============================ */
+
+.galle{
+  background: url(../images/sangoimg4.jpg) no-repeat;
+  filter: blur(5px);
+  background-position: center;
+  min-height: 70vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  display: flex;
+}
+
+.gallery-text{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: #fff;
+  border: 3px solid #1919cc;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+  z-index: 2;
+  /* font-weight: bold; */
+  letter-spacing: 0.8rem;
+}
+
+.gallery-text h1{
+  font-size: 3rem;
+}
+
+.gallery-img{
+  width: 90%;
+  height: 120%;
+}
+
+#gallery{
+  background-color: #fff;
+  /* min-height: 90vh; */
+  /* margin-top: 20px; */
+}
+
+.second-row{
+  padding-top: 5%;
+}
+
+.third-row{
+  padding-top: 5%;
+}
+
+.forth-row{
+  padding-top: 5%;
+}
+
+.gallery-container{
+  padding: 7% 10%;
+}
+
+.gallery-button {
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px #666666;
+  font-family: Arial;
+  color: #fff;
+  font-size: 20px;
+  background: #363166;
+  padding: 5px 10px 5px 10px;
+  border: solid #363166 1px;
+  text-decoration: none;
+  position: relative;
+  top: 39px;
+}
+
+.gallery-button:hover {
+  color: #000000;
+  background: #fff;
+  text-decoration: none;
+}
+
+@media (max-width:1028px) {
+  .gallery-text{
+    width: 67%;
+  }
+
+  .gallery-text h1{
+    font-size: 1.5rem;
+  }
+}
+
+/* Gallery page 
+============================ */
+
+
+
+/* History page 
+======================== */
+
+#history-intro {
+  background-color: #0a090c;
+  min-height: 70vh;
+}
+
+#history-intro h1{
+  padding-top: 11%;
+}
+
+/* History page end 
+======================== */
+
+
+/* Donation page 
+========================== */
+
+.donate{
+  background: url(../images/laptop.jpg);
+  filter: blur(5px);
+  min-height: 70vh;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.donate-text{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 3px solid #1919cc;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+  letter-spacing: 0.8rem;
+  z-index: 2;
+}
+
+.donate-text h1{
+  font-size: 3rem;
+}
+
+.dues{
+  border: 0.4px #5a5a5a;
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.charity{
+  margin-left: 10px;
+  border: 0.4px #5a5a5a;
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.donation-page-button {
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px #666666;
+  font-family: Arial;
+  color: #fff;
+  font-size: 20px;
+  background: #363166;
+  padding: 5px 10px 5px 10px;
+  margin: 3px 5px 10px 3px;
+  border: solid #363166 1px;
+  text-decoration: none;
+  position: relative;
+  top: 9px;
+}
+
+.donation-page-button:hover {
+  color: #000000;
+  background: #fff;
+  text-decoration: none;
+}
+
+@media (max-width:1028px) {
+  .charity{
+    margin-left: 0px;
+  }
+
+  .donate-text h1{
+    font-size: 1.3rem;
+  }
+
+  .donate-text{
+    width: 67%;
+  }
+}
+
+.donation-page-container{
+  padding: 7% 10%;
+}
+
+.donation-page-heading{
+  margin-bottom: 4%;
+  text-align: center;
+}
+
+/* Donation page end
+========================== */
+
+
+
+/* Contact page 
+========================= */
+
+.contact-img{
+  background: url(../images/image.jpg);
+  filter: blur(5px);
+  min-height: 70vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.cont-text{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0,0,0);             /* fallback color =====*/
+  background-color: rgba(0, 0, 0, 0.4);     /*opacity/see through =====*/
+  color: #fff;
+  padding: 20px;
+  border: 3px solid #1919cc;
+  width: 50%;
+  text-align: center;
+  z-index: 2;
+  font-size: 3rem;
+  letter-spacing: 0.8rem;
+}
+
+.cont-text h1{
+  font-size: 3rem;
+}
+
+.cont-container{
+  padding: 7% 15%;
+}
+
+
+.contact-button {
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px #666666;
+  font-family: Arial;
+  color: #fff;
+  font-size: 20px;
+  background: #363166;
+  padding: 5px 10px 5px 10px;
+  border: solid #363166 1px;
+  text-decoration: none;
+  position: relative;
+  top: 9px;
+}
+
+.contact-button:hover {
+  color: #000000;
+  background: #fff;
+  text-decoration: none;
+}
+
+@media (max-width:1028px) {
+  .cont-text h1{
+    font-size: 1.5rem;
+  }
+
+  .cont-text{
+    width: 60%;
+  }
+}
+
+/* Contact page end
+========================= */
+
+/* register page 
+========================== */
+
+#register{
+  padding: 7% 10%;
+}
+
+.spacebetween{
+  margin-right: 8px;
+}
+
+
+.login-page-button {
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px #666666;
+  font-family: Arial;
+  color: #fff;
+  font-size: 20px;
+  background: #363166;
+  padding: 5px 10px 5px 10px;
+  margin: 3px 5px 10px 3px;
+  border: solid #363166 1px;
+  text-decoration: none;
+  position: relative;
+  top: 9px;
+}
+
+.login-page-button:hover {
+  color: #000000;
+  background: #fff;
+  text-decoration: none;
+}
+
+/* register page end
+========================== */
+
+/* footer all pages 
+============================ */
+#footer {
+  padding: 4% 10%;
+  background-color: #363166;
+}
+
+#footer h1{
+  color: #fff;
+}
+
+#footer p{
+  color: #fff;
+}
+
+#footer a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright{
+  text-align: center;
+}
+
+/* footer all pages end
+============================ */
+
+/* buttom footer 
+============================ */
+
+.buttom-footer-container{
+  padding-top: 2%;
+  padding-right: 10%;
+  text-align: center;
+}
