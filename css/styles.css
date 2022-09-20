@@ -10,16 +10,15 @@
   box-shadow: 0px 2px 3px #666666;
   font-family: Arial;
   color: #fff;
-  font-size: 20px;
+  font-size: 17px;
   background: #363166;
   padding: 5px 10px 5px 10px;
   border: solid #363166 1px;
   text-decoration: none;
   position: relative;
   /* top: 9px; */
+  left: 5px;
   text-transform: uppercase;
-  /* margin-left: -35%;
-  margin-top: -7%; */
 }
 
 .home-text-button:hover {
@@ -39,6 +38,7 @@
   color: #ffffff !important;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 0.9rem;
 }
 
 .navbar ul li a:hover {
@@ -133,7 +133,7 @@
   text-align: center;
   color: #fff;
   font-weight: bold;
-  font-size: 0.75rem;
+  font-size: 1rem;
   text-transform: uppercase;
   margin-right: 30px;
 }
