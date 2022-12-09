@@ -135,7 +135,7 @@ overflow-y: hidden;
   .navbar {
     padding: 3% 1%;
   }
-  .navbar-toggler-icon{
+  .navbar-toggler{
     margin-left: -10%;
   }
 }
