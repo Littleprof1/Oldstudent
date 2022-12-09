@@ -135,9 +135,6 @@ overflow-y: hidden;
   .navbar {
     padding: 3% 1%;
   }
-  .container-fluid{
-    overflow-x: hidden;
-  }
 }
 
 
@@ -528,10 +525,10 @@ body {
   filter: blur(5px);
   background-position: center;
   min-height: 70vh;
-  width: 100%;
+  /* width: 100%; */
   position: relative;
   background-size: cover;
-  display: flex;
+  /* display: flex; */
 }
 
 .gallery-text{
