@@ -232,11 +232,11 @@ body {
   letter-spacing: 0.8rem;
 }
 
-@media (max-width:1028px) {
+@media (max-width:1000px) {
   #intro{
     text-align: center;
     background-color: #fff;
-    /* margin-top: -35%; */
+    margin-top: -25%;
   }
 
   #intro h1 {
