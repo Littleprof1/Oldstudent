@@ -134,7 +134,6 @@ overflow-y: hidden;
 @media (max-width:1028px) {
   .navbar {
     padding: 3% 1%;
-    margin-left: -10%;
   }
 }
 
