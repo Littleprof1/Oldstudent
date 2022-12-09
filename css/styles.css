@@ -196,6 +196,20 @@ body {
   height: 32rem;
 }
 
+@media (max-width: 1028px) {
+  .bd-placeholder-img{
+    background-position: center;
+    max-height: 60vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    /* width: 50%; */
+    /* height: 30px; */
+  }
+}
+
+
 /* intro 
 ========================= */
 
@@ -237,6 +251,7 @@ body {
   font-size: 3rem;
   margin-bottom: -5%;
   letter-spacing: 0.8rem;
+  font-weight: bold;
 }
 
 .image-size{
@@ -287,6 +302,7 @@ body {
 #event h2{
   font-size: 3rem;
   letter-spacing: 0.8rem;
+  font-weight: bold;
 }
 
 .event-container{
