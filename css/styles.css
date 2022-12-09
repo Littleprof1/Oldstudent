@@ -233,6 +233,12 @@ body {
 }
 
 @media (max-width:1028px) {
+  #intro{
+    text-align: center;
+    background-color: #fff;
+    margin-top: -15%;
+  }
+
   #intro h1 {
     color: #1919cc;
     font-size: 2rem;
