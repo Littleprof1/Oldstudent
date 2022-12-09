@@ -135,8 +135,8 @@ overflow-y: hidden;
   .navbar {
     padding: 3% 1%;
   }
-  .navbar-toggler{
-    margin-left: 10%;
+  .container-fluid{
+    overflow-x: hidden;
   }
 }
 
