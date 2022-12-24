@@ -75,7 +75,7 @@ overflow-y: hidden;
   margin: -8px auto 10px auto;
 }
 
-.hisline{
+.eventline{
   width: 70px;
   height: 2px;
   background-color: #ffffff;
@@ -239,12 +239,20 @@ body {
   background-color: #fff;
 }
 
-#intro h2 {
+#intro h3 {
+  font-size: 1.4rem;
   color: #1919cc;
 }
 
-#intro h3 {
+#intro h4 {
+  font-size: 1.4rem;
   color: #1919cc;
+}
+
+#intro h4 span{
+  font-size: 1rem;
+  color: #000000;
+  font-weight: 500;
 }
 
 #intro h1 {
@@ -283,7 +291,7 @@ body {
 
 .image-size{
   width: 24%;
-  height: 140%;
+  height: 120%;
 }
 
 /* .gallery-line{
@@ -356,6 +364,15 @@ body {
   width: -10%;
 }
 
+#event h4{
+  font-weight: 700;
+}
+
+.re-head{
+  font-size: 2rem;
+  font-weight: 800;
+}
+
 
 @media (max-width:1028px) {
   #event h2{
@@ -363,24 +380,24 @@ body {
     letter-spacing: 0.6rem;
   }
 
-  .get-together{
+  /* .get-together{
     position: relative;
     left: -2%;
     background-color: rgb(0,0,0);
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     border: 3px solid #1919cc;
-  }
+  } */
   
   .reunion{
     position: relative;
-    left: -2%;
-    top: 40%;
+    /* left: -30%; */
+    /* top: 40%; */
     background-color: rgb(0,0,0);
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     border: 3px solid #1919cc;
-    width: -10%;
+    /* width: -10%; */
   }
 
   #event h4{
@@ -503,6 +520,12 @@ body {
   font-size: 3rem;
 }
 
+.card-img-size{
+  align-items: center;
+  width: 80%;
+  height: 70%;
+}
+
 @media (max-width:1028px) {
   .executive-page-text{
     width: 70%;
@@ -586,6 +609,7 @@ body {
   color: #fff;
   font-size: 20px;
   background: #363166;
+  margin-bottom: 4%;
   padding: 5px 10px 5px 10px;
   border: solid #363166 1px;
   text-decoration: none;
