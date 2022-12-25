@@ -369,7 +369,7 @@ body {
 
 .event-homepage-text{
   position: absolute;
-  top: 221%;
+  top: 215%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -493,7 +493,7 @@ body {
   font-weight: 700;
 }
 
-/* 
+
 .donation-container{
   padding: 7% 10%;
 }
@@ -518,7 +518,7 @@ body {
   background: #fff;
   text-decoration: none;
 }
- */
+
 
 /* Featurettes
 ------------------------- */
