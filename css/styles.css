@@ -389,7 +389,7 @@ body {
 .event-homepage-text h1{
   font-size: 3rem;
   font-weight: 600;
-  padding-bottom: 3%;
+  /* padding-bottom: 3%; */
 }
 
 .event-homepage-text h2{
