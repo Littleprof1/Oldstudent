@@ -476,6 +476,24 @@ body {
   color: #fff;
 }
 
+.donation-page-heading{
+  margin: 8%;
+}
+
+.donate-construction{
+  text-align: center;
+  background-color: #363166;
+  margin: 10%;
+  padding: 10%;
+  color: #ffffff;
+}
+
+.donate-construction h1{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* 
 .donation-container{
   padding: 7% 10%;
 }
@@ -500,7 +518,7 @@ body {
   background: #fff;
   text-decoration: none;
 }
-
+ */
 
 /* Featurettes
 ------------------------- */
