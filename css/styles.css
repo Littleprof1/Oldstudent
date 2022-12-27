@@ -249,15 +249,25 @@ body {
   color: #1919cc;
 }
 
-#intro h4 {
-  font-size: 1.4rem;
-  color: #1919cc;
+.motto-button {
+border-radius: 10px;
+box-shadow: 0px 2px 3px #666666;
+color: #fff;
+font-size: 20px;
+font-weight: 500;
+background: #363166;
+margin-bottom: 4%;
+border: solid #363166 1px;
+text-decoration: none;
+position: relative;
 }
 
-#intro h4 span{
+#intro h6 {
   font-size: 1rem;
   color: #000000;
   font-weight: 500;
+  position: relative;
+  top: -40px;
 }
 
 #intro h1 {
@@ -278,6 +288,28 @@ body {
     font-size: 2rem;
     letter-spacing: 0.6rem;
     font-weight: 800;
+  }
+
+#intro h6 {
+  font-size: 1rem;
+  color: #000000;
+  font-weight: 500;
+  position: relative;
+  top: 1px;
+}
+
+.motto-button {
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px #666666;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  background: #363166;
+  margin-bottom: 4%;
+  border: solid #363166 1px;
+  text-decoration: none;
+  position: relative;
+  top: 10px;
   }
 }
 
