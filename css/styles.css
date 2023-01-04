@@ -153,6 +153,10 @@ overflow-y: hidden;
     width: 20%;
     height: 20%;
   }
+  .foot-logo{
+    width: 30%;
+    height: 95%;
+  }
 }
 
 .logo-text{
